@@ -1,0 +1,21 @@
+# IDE 本地工作文件（CodeBuddy 计划等，不入库）
+.codebuddy/
+
+# 临时/缓存
+__pycache__/
+*.pyc
+
+# 发布产物（手动打包生成，不入库）
+*.zip
+release/
+
+# 运行时二进制（由用户自行放置精简版 ffmpeg，不入库）
+bin/
+
+# 旧版本归档（历史遗留，不入库）
+archive/
+
+# 本地测试产物
+*.log
+_test*/
+_sample*/
